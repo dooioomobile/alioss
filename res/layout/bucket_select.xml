@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  <TextView android:text="@string/bucket_select_title"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+    android:textSize="22dip"
+    android:background="#F49A0A"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+  <ListView 
+      android:id="@+id/buckets"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:divider="#EEE"
+      android:dividerHeight="1dip"
+      android:background="#FFFFFF"
+      android:cacheColorHint="#00000000" />
+</LinearLayout>
